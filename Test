@@ -2311,7 +2311,7 @@ Teleport:AddButton("Jungle Gym", function()
 end)
 
 local anti Options = window:AddTab("Anti Options")
-folder2:AddButton("Anti Lag")
+folder2:AddButton("Anti Options")
 
 local isAntiLagEnabled = false
 local function setAntiLag(value)
