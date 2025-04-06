@@ -6,7 +6,7 @@ local window = library:AddWindow("Kavz V2", {
 })
 
 -- Main Tab
-local Main = window:AddTab("Anti options
+local Main = window:AddTab("Anti options")
 local foulder = Main:AddFoulder("Anti Lag")
 
 local isAntiLagEnabled = false
