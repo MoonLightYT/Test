@@ -6,9 +6,7 @@ local window = library:AddWindow("Kavz V2", {
 })
 
 -- Main Tab
-local Main = window:AddTab("Main")
-local Main = window:AddTab("Anti options")
-
+local Main = window:AddTab("Anti options
 local foulder = Main:AddFoulder("Anti Lag")
 
 local isAntiLagEnabled = false
@@ -21,7 +19,7 @@ local function setAntiLag(value)
     end
 end
 
-
+local Main = window:AddTab("Main")
 local folder = Main:AddFolder("Brawl")
 
 -- God Mode Toggle
