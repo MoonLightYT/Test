@@ -7,7 +7,9 @@ local window = library:AddWindow("Kavz V2", {
 
 -- Main Tab
 local Main = window:AddTab("Main")
-local Main = window:AddTab("Anti Lag")
+local Main = window:AddTab("Anti options")
+
+local foulder = Main:AddFoulder("Anti Lag")
 
 local isAntiLagEnabled = false
 local function setAntiLag(value)
@@ -18,6 +20,7 @@ local function setAntiLag(value)
         notify("Anti-Lag Disabled", "The script will return to normal performance.", 3)
     end
 end
+
 
 local folder = Main:AddFolder("Brawl")
 
